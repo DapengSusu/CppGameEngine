@@ -91,6 +91,8 @@ int main(void)
         free(pEvent);
     }
 
+    xcb_disconnect(pConn);
+
     return 0;
 }
 
